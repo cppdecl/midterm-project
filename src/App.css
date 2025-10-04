@@ -17,10 +17,14 @@
 }
 
 h1, h2 {
-  font-family: 'Press Start 2P', monospace;
+  font-family: 'Creepster', monospace;
   color: #B80F0A;
   font-size: 2.5rem;
   line-height: 1.2;
+}
+
+strong {
+  color: red;
 }
 
 .player-stats {
@@ -58,19 +62,20 @@ h1, h2 {
 }
 
 button {
-  background-color: #B80F0A;
-  color: #1a1a1a;
+  background-color: hsl(0, 0%, 0%);
+  color: #ff0404;
   border: 2px solid #1a1a1a;
   padding: 1rem;
   cursor: pointer;
-  font-family: 'Press Start 2P', monospace;
+  font-family: 'Henny Penny';
+  font-weight: 100;
   font-size: 1rem;
   transition: background-color 0.2s;
-  border-radius: 0;
+  border-radius: 15px;
 }
 
 button:hover {
-  background-color: #D93B33;
+  background-color: #2f0e0b;
 }
 
 input[type="text"] {
@@ -82,8 +87,13 @@ input[type="text"] {
   border: 2px solid #B80F0A;
   background-color: #21252b;
   color: white;
-  font-family: 'Press Start 2P', monospace;
+  font-family: 'Irish Grover', monospace;
   border-radius: 0;
+}
+
+p {
+  font-family: 'Irish Grover';
+  color: rgb(255, 160, 160);
 }
 
 .stat-hp {
